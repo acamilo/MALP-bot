@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content = "width = device-width, initial-scale = 1.0, minimum-scale = 1, maximum-scale = 1, user-scalable = no" />
+		<style>
+.view {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: auto;
+}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+		<img src="http://192.168.43.21:8080/?action=stream" class="view"/>
+		</div>
+		<script src="js/virtualjoystick.js"></script>
+		<script>
+			console.log("touchscreen is", VirtualJoystick.touchScreenAvailable() ? "available" : "not available");
+	
+			var joystick	= new VirtualJoystick({
+				container	: document.getElementById('container'),
+				mouseSupport	: true,
+			});
+			joystick.addEventListener('touchStart', function(){
+				console.log('down')
+			})
+			joystick.addEventListener('touchEnd', function(){
+				console.log('up')
+			})
+
+		</script>
+	</body>
+</html>
