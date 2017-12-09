@@ -9,19 +9,19 @@
 
 ## Todo
 * [x] Streaming Webcam
- * [x] Find resolution/framerate/latency sweet-spot
- * [x] Start server on boot
+   * [x] Find resolution/framerate/latency sweet-spot
+  * [x] Start server on boot
 * Control Webpage
- * [x] Touchpad/Mouse joystick
- * [x] periodic GET requests with stick x/y
- * [x] embedded live stream
- * [x] "HUD" overlay
- * Display Battery voltage
+  * [x] Touchpad/Mouse joystick
+  * [x] periodic GET requests with stick x/y
+  * [x] embedded live stream
+  * [x] "HUD" overlay
+  * Display Battery voltage
 * RPI Backend
- * [x] Accept Inputs using flask
- * [x] GPIO PWM Servo Control. x/y to diff drive.
- * [x] Serve static Files
- * [x] Embedd Camera feed w/o hardcoding IP addr
- * battery voltage sense
- * start server on system boot
- * read-only filesystem
+  * [x] Accept Inputs using flask
+  * [x] GPIO PWM Servo Control. x/y to diff drive.
+  * [x] Serve static Files
+  * [x] Embedd Camera feed w/o hardcoding IP addr
+  * battery voltage sense
+  * start server on system boot
+  * read-only filesystem
