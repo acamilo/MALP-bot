@@ -24,7 +24,7 @@ def serve_index():
 
 #wifi ip addr get helper func
 def getWLANIP():
-  return [i['addr'] for i in ifaddresses(ifaceName).setdefault(AF_INET, [{'addr':'No IP addr'}] )]
+  return [i['addr'] for i in ifaddresses("wlan0").setdefault(AF_INET, [{'addr':'No IP addr'}] )]
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
