@@ -1,5 +1,5 @@
 #!/bin/bash
-# ac: I got this script from somewhare, its not mine.
+# ac: I got this script rpi forums user phl.
 #first do 'sudo raspi-config' and activate camera module and reboot
 #then sudo this script
 
