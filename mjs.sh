@@ -1,4 +1,5 @@
 #!/bin/bash
+# ac: I got this script from somewhare, its not mine.
 #first do 'sudo raspi-config' and activate camera module and reboot
 #then sudo this script
 
