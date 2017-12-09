@@ -18,7 +18,7 @@ def serve_static(filename):
 # make sure index is served for '/'  
 @app.route('/')
 def serve_index():
-  return return render_template('index.html', myip = "192.168.43.21")
+  return render_template('index.html', myip = "192.168.43.21")
 
 
 if __name__ == '__main__':
