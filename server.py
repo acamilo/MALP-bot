@@ -1,4 +1,4 @@
-from flask import Flask, g
+from flask import Flask, g, render_template
 
 app = Flask(__name__,static_folder="static")
 
