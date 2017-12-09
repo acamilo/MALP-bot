@@ -25,3 +25,5 @@
   * battery voltage sense
   * start server on system boot
   * read-only filesystem
+  * AP-mode
+  * DHCP server and captive portal
